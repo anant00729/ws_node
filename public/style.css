@@ -1,0 +1,12 @@
+div#log{
+    width: 800px;
+    height: 500px;
+    border: 3px solid;
+    margin: 0px auto;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 16px;
+}

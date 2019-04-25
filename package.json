@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "debugg": "nodemon --inspect server.js",
-    "begin": "nodemon --inspect-brk server.js"
+    "debugg": "nodemon --inspect serverOne.js",
+    "begin": "nodemon --inspect-brk serverOne.js"
   },
   "author": "",
   "license": "ISC",
