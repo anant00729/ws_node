@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon serverOne.js",
     "debugg": "nodemon --inspect serverOne.js",
     "begin": "nodemon --inspect-brk serverOne.js"
   },
