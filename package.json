@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon serverOne.js",
     "debugg": "nodemon --inspect serverOne.js",
-    "begin": "nodemon --inspect-brk serverOne.js"
+    "begin": "nodemon --inspect-brk serverOne.js",
+    "start": "node serverOne.js"
   },
   "author": "",
   "license": "ISC",
