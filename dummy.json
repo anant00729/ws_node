@@ -1,0 +1,81 @@
+{
+    "Message": "",
+    "Status": true,
+    "Banner": [
+      
+    ],
+    "shows": [
+      {
+        "CategoryID": 1,
+        "Title": "Now Showing",
+        "SubTitle": "Latest Releases",
+        "Movies": [
+        ]
+      },
+      {
+        "CategoryID": 2,
+        "Title": "Special Screening",
+        "SubTitle": "",
+        "Movies": [
+          {
+            "ID": 14,
+            "Name": "The Best Man Holiday",
+            "Image": "http://gogo-alpha-api.binarynumbers.io/assets/images/movies/AppImage/5ca760d7ee2e6.jpg",
+            "HeaderImage": "http://gogo-alpha-api.binarynumbers.io/assets/images/movies/HeaderImage/5ca760d0d76e1.jpg",
+            "Rated": "R",
+            "Year": "2013",
+            "Time": "123 min",
+            "Format": "2D",
+            "Language": "English",
+            "ScheduleCount": 0
+          },
+          {
+            "ID": 29,
+            "Name": "The Machinist",
+            "Image": "http://gogo-alpha-api.binarynumbers.io/assets/images/movies/AppImage/5ca75fd9e15b7.jpg",
+            "HeaderImage": "http://gogo-alpha-api.binarynumbers.io/assets/images/movies/HeaderImage/5ca75fbee59f6.jpg",
+            "Rated": "R",
+            "Year": "2004",
+            "Time": "101 min",
+            "Format": "2D",
+            "Language": "English",
+            "ScheduleCount": 0
+          },
+          {
+            "ID": 54,
+            "Name": "Ant-Man",
+            "Image": "http://gogo-alpha-api.binarynumbers.io/assets/images/movies/AppImage/5ca74dfa998fe.jpg",
+            "HeaderImage": "http://gogo-alpha-api.binarynumbers.io/assets/images/movies/HeaderImage/5ca74dee34dd9.jpg",
+            "Rated": "PG-13",
+            "Year": "2015",
+            "Time": "117 min",
+            "Format": "2D,3D",
+            "Language": "English",
+            "ScheduleCount": 0
+          }
+        ]
+      },
+      {
+        "CategoryID": 4,
+        "Title": "Create Screening",
+        "SubTitle": "",
+        "Movies": [
+          
+        ]
+      },
+      {
+        "CategoryID": 3,
+        "Title": "Mini Festival",
+        "SubTitle": "Animation Special",
+        "Movies": [
+        ]
+      }
+    ],
+    "Default": {
+      "CountryISOCode": 91,
+      "CountryName": "India",
+      "CountryState": "Maharashtra",
+      "CountryCity": "Badlapur",
+      "IPAddress": "110.173.187.106"
+    }
+}

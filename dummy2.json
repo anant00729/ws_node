@@ -1,0 +1,6 @@
+{
+    "sql": "SELECT ShowTiming.ExpiryDate,ShowTiming.ShowTime,ShowTiming.ShowDate,ShowTiming.Time,Movies.Released,Screen.totalseat,ShowTiming.SeatsBook,Movies.Title,Movies.Rated,Movies.AppImage,Movies.AppHeaderBanner,Movies.Rated,Movies.Runtime,Movies.Metacritic,Movies.Language,ShowTiming.MovieID,ShowTiming.ID,ShowTiming.Time,ShowTiming.ScreenID,Screen.CinemaID,Cinema.OrganizationID,Cinema.SCExpiry,Cinema.CinemaName,Cinema.Address,Cinema.CityID,CityMaster.CityName,Organization.OrganizationName,Organization.Logo,Cinema.Latitude,Cinema.Longitude FROM `ShowTiming` JOIN Screen ON Screen.ScreenID = ShowTiming.ScreenID JOIN Cinema ON Screen.CinemaID =Cinema.CinemaID JOIN Movies on Movies.ID=ShowTiming.MovieID JOIN CityMaster on CityMaster.CityID=Cinema.CityID JOIN Organization on Organization.OrganizationID=Cinema.OrganizationID where  ShowTiming.ShowDate >= '2019-04-24' and ShowTiming.ExpiryDate >= '2019-04-24' and ShowTiming.IsActive=1 and ShowTiming.SeatsBook< Screen.totalseat  AND Cinema.CountryID='195' AND Cinema.CinemaID='3' and ShowTiming.`MovieID`='45' ORDER BY `ShowTiming`.`MovieID` ASC",
+    "Status": true,
+    "Message": "",
+    "Cinema": []
+}
