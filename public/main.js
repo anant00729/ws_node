@@ -9,7 +9,7 @@ const log = _d.getElementById('log')
 const name = prompt('Enter your name?')
 
 // for websockets
-const _s = new WebSocket('ws://192.168.1.30:3000/')
+const _s = new WebSocket('wss://tciikas.herokuapp.com/')
 _s.onopen = () => {
     console.log('socket connected successfully');
 
