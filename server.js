@@ -25,6 +25,10 @@ app.post('/GetShowDate/', (req,res)=> {
   res.json(_json_dates)
 })
 
+app.get('/home', (req,res)=>{
+  res.json({home : 'home'})
+})
+
 
 
 
