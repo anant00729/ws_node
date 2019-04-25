@@ -4,6 +4,7 @@ const uuidv1 = require('uuid/v1');
 const _ws = require('ws').Server
 const http = require('http')
 const exp = require('express')
+const path = require('path')
 
 const _d_json = require('./dummy.json')
 const _json_dates = require('./dummy2.json')
@@ -12,6 +13,9 @@ const app = exp()
 
 
 //console.log('http :', http);
+
+app.use(exp.static('public'))
+
 
 
  
@@ -26,7 +30,7 @@ app.post('/GetShowDate/', (req,res)=> {
 })
 
 app.get('/home', (req,res)=>{
-  res.json({home : 'home'})
+  res.sendFile(path.join(__dirname + '/public/index.html'));
 })
 
 
